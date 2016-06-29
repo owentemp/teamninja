@@ -41,7 +41,6 @@ var assetFolder = Path.resolve(__dirname, '../client/public')
 routes.use(express.static(assetFolder))
 
 
-if (process.env.NODE_ENV !== 'test') {
   //
   // Campground query route
   // Returns all campgrounds within the given radius
@@ -86,6 +85,9 @@ if (process.env.NODE_ENV !== 'test') {
   routes.get('/*', function(req, res){
     res.sendFile( assetFolder + '/index.html' )
   })
+
+
+if (process.env.NODE_ENV !== 'test') {
 
   //
   // We're in development or production mode;
