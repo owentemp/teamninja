@@ -26,7 +26,7 @@ class SearchBoxPage extends React.Component {
     };
     this._addSearch = this._addSearch.bind(this);
   }
-  
+
 //
 // Renders the page
 //
@@ -96,7 +96,7 @@ class SearchBoxPage extends React.Component {
     this.setState({'centerLatLon': {'lat': valObj.lat, 'lon': valObj.lng}});
     value = JSON.parse(value);
 
-    let urlValue = 'http://localhost:4000/searchcg?lat=' + value.lat + '&lon=' + value.lng + '&rad=100';
+    let urlValue = 'https://offthegridcamping.herokuapp.com/searchcg?lat=' + value.lat + '&lon=' + value.lng + '&rad=100';
     $.ajax({
       method: "GET",
       url: urlValue,
@@ -125,9 +125,9 @@ class SearchBoxPage extends React.Component {
 // Call to Google's api
 
   _addSearch(value) {
-    
-    this.setState({'locationString': value});    
-    
+
+    this.setState({'locationString': value});
+
     var  scopehelper = this;
       value = value.replace(" ", "");
       if (value === '') {
