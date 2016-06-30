@@ -189,8 +189,8 @@ class CampgroundList1 extends React.Component {
   render() {
     let allData = this.props.data;
     let campgroundNodes = allData.map(function (campground) {
-      let photo = "http://reserveamerica.com" + campground.facility_photo_url;
-      if ( photo === 'http://reserveamerica.com/images/nophoto.jpg') {
+      let photo = "https://reserveamerica.com" + campground.facility_photo_url;
+      if ( photo === 'https://reserveamerica.com/images/nophoto.jpg') {
         photo = Icons.defaultFire;
       }
       let water, pets, tent, rv, amps, sewer;
