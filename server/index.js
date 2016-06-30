@@ -102,6 +102,7 @@ if (process.env.NODE_ENV !== 'test') {
   app.use('/', routes)
 
   // Start the server!
+  db.ensureSchema();
   var port = process.env.PORT || 4000
   app.listen(port)
   console.log("Listening on port", port)
