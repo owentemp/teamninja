@@ -74,7 +74,7 @@ class SearchBoxPage extends React.Component {
   _fetchCampSites() {
     $.ajax({
       method: "GET",
-      url: 'http://localhost:4000/searchcs?cgId=820400',
+      url: 'https://offthegridcamping.herokuapp.com/searchcs?cgId=820400',
       data: {},
       success: (data) => {
         let campsite = {
