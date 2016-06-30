@@ -1,11 +1,11 @@
 module.exports = (function() {
   return {
-    tent: "../assets/tent.png",
-    water: "../assets/water.png",
-    rv: "../assets/rv.png",
-    pets: "../assets/pets.png",
-    amps: "../assets/amps.png",
-    sewer: "../assets/sewer.png",
+    tent: "/tent.png",
+    water: "/water.png",
+    rv: "/rv.png",
+    pets: "/pets.png",
+    amps: "/amps.png",
+    sewer: "/sewer.png",
     defaultFire: "http://media.treehugger.com/assets/images/2015/06/build-perfect-fire.jpg"
   }
 })();
