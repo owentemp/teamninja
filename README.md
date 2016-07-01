@@ -91,15 +91,15 @@ Zackery Perryman - https://github.com/undeadtwo
 
 Paul-Michael Schreiber - https://github.com/pschreibs85
 
-Mark Boraski - https://github.com/orgs/MKS-teamninja/people/SpartanSOS
+Mark Boraski - https://github.com/SpartanSOS
 
 Maher Dakkak - https://github.com/Madakkak
 
-Jack Hall - https://github.com/orgs/MKS-teamninja/people/jackjhall22
+Jack Hall - https://github.com/jackjhall22
 
-Matthew DuBose - https://github.com/orgs/MKS-teamninja/people/mjdubose
+Matthew DuBose - https://github.com/mjdubose
 
-Vidush Rana - https://github.com/orgs/MKS-teamninja/people/Vidushr
+Vidush Rana - https://github.com/Vidushr
 
 ##Acknowledgments
 
