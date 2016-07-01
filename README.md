@@ -1,10 +1,9 @@
 
-OffTheGrid Campground Finder
-(MKS36 Team Ninja Greenfield Project)
+#OffTheGrid Campground Finder
 
 OffTheGrid is a campground search app that facilitates locating campground info from anywhere in the US (currently limited to only Texas). Whether you want to find campgrounds near your or near a specific location, this app will find them all and show you any relevant info you might need to help you get as far off the grid as you want.
 
-Getting Started
+##Getting Started
 
 Basic code flow:
 
@@ -16,7 +15,7 @@ The backend web server then queries the database for all saved campgrounds retri
 
 Using this response info, the frontend displays the desirable data in a user-friendly list view, and also generates a map plotting the locations of the campground set. Users can toggle between campground list view and campsite list view if they want more details on individual campsites within a clicked campground.
 
-Installing the codebase:
+###Installing the codebase:
 
 - Fork and clone down the codebase
 - From within the code directory, perform NPM install (refer to package.json for all project dependencies)
@@ -30,11 +29,15 @@ To regenerate the campground database:
 - This will query the Campground/Campsite Search API and build the database. The database is re-built each time the worker is run (inserts rather than upserts).
 - Note: Due to Active.com's query per second (QPS) limitation, the cggraber.js worker task is throttled to query no more than 2 times per second.
 
-Running the tests
+##Deployment 
+The application is deployed via Heroku at http://offthegridcamping.herokuapp.com/ using a Postgres database
+
+
+##Running the tests
 
 Since this project is still in early development stages, there isn't yet a test suite available. We intend to set Gulp to schedule tasks and automatically run tests using mocha, jshint, etc.
 
-Built With
+##Built With
 
 Node JS
 SQLite3
@@ -42,9 +45,6 @@ Express
 React JS
 Bootstrap
 
-Project management:
-
-[![Stories in Ready](https://badge.waffle.io/MKS-teamninja/teamninja.png?label=ready&title=Ready)](http://waffle.io/MKS-teamninja/teamninja)
 
 Project TODO:
 
@@ -53,12 +53,7 @@ Backend:
 - Note: The backend is already feature complete. The only improvement necessary would be to schedule worker/cggrabber.js to run periodically using a process scheduler. Another important change would be to swap out the sqlite3 adapter currently configured in our knexfile to instead use postgreSQL. Since Heroku (our desired deployment environment) doesn't have a sqlite3 plugin, the DB must be switched to use postgres instead. None of the actual db build/query code should need to be changed.
 
 Frontend:
-
-- Add Map view to display a separate tab displaying a map of plotted campgrounds
 - Add campsite view. This feature would potentially toggle a new view when a campground is clicked and display info for all campsites in that campground. This information is retrievable by querying the /searchcs endpoint on the backend and providing the campground ID.
-- Display additional campground info in the list view, showing
-  available amenities, waterfront (if availble), etc.
-- Additional frontend styling for user-friendliness.
 
 Cleanup:
 
@@ -90,6 +85,14 @@ Authors
 Mark Boraski (Product Owner) - https://github.com/orgs/MKS-teamninja/people/SpartanSOS
 
 Maher Dakkak (SCRUM Master) - https://github.com/Madakkak
+
+Owen Temple - https://github.com/owentemple
+
+James Lee - https://github.com/
+
+Zackery Perryman - https://github.com/
+
+Paul-Michael Schreiber
 
 Jack Hall - https://github.com/orgs/MKS-teamninja/people/jackjhall22
 
