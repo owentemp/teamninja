@@ -1,5 +1,6 @@
 
 #OffTheGrid Campground Finder
+http://offthegridcamping.herokuapp.com/ 
 
 OffTheGrid is a campground search app that facilitates locating campground info from anywhere in the US (currently limited to only Texas). Whether you want to find campgrounds near your or near a specific location, this app will find them all and show you any relevant info you might need to help you get as far off the grid as you want.
 
@@ -39,14 +40,14 @@ Since this project is still in early development stages, there isn't yet a test 
 
 ##Built With
 
-Node JS
-SQLite3
-Express
-React JS
-Bootstrap
+- Node JS
+- Postgres
+- Express
+- React JS
+- Bootstrap
 
 
-Project TODO:
+##Project TODO:
 
 Backend:
 
@@ -60,39 +61,39 @@ Cleanup:
 - Break out app.js code into provided component files.
 - Delete any deprecated, unused code.
 
-API Reference:
+##API Reference:
 
-  Backend APIs to collect campground and campsites
+####Backend APIs to collect campground and campsites
 
 - Campground Search API:
   http://developer.active.com/docs/read/Campground_Search_API
 - Campsite Search API:
-- http://developer.active.com/docs/read/Campsite_Search_API
+  http://developer.active.com/docs/read/Campsite_Search_API
 
-  Front-end APIs to geocode user input and map campgrounds
+####Front-end APIs to geocode user input and map campgrounds
 
 - Google Maps Geocoding API:
   https://developers.google.com/maps/documentation/geocoding/intro#Geocoding
 - Google Maps Javascript API:
   https://developers.google.com/maps/documentation/javascript/3.exp/reference#experimental-version
 
-Contributing
+##Contributing
 
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-Authors
-
-Mark Boraski (Product Owner) - https://github.com/orgs/MKS-teamninja/people/SpartanSOS
-
-Maher Dakkak (SCRUM Master) - https://github.com/Madakkak
+###Authors
 
 Owen Temple - https://github.com/owentemple
 
-James Lee - https://github.com/
+James Lee - https://github.com/JimmyLee87
 
-Zackery Perryman - https://github.com/
+Zackery Perryman - https://github.com/undeadtwo
 
-Paul-Michael Schreiber
+Paul-Michael Schreiber - https://github.com/pschreibs85
+
+Mark Boraski - https://github.com/orgs/MKS-teamninja/people/SpartanSOS
+
+Maher Dakkak - https://github.com/Madakkak
 
 Jack Hall - https://github.com/orgs/MKS-teamninja/people/jackjhall22
 
@@ -100,7 +101,7 @@ Matthew DuBose - https://github.com/orgs/MKS-teamninja/people/mjdubose
 
 Vidush Rana - https://github.com/orgs/MKS-teamninja/people/Vidushr
 
-Acknowledgments
+##Acknowledgments
 
 Gilbert Garza for the React catapult project starter code!
 
