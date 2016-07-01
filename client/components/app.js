@@ -216,10 +216,10 @@ class CampgroundList1 extends React.Component {
                     <label>{campground.facility_name.toUpperCase()}</label>
                   </div>
                   <div className='amenities'>
-                    {campground.water ? <img className="amenitiesIcon" title="Water Hookup" src={water}/> : <span />}
-                    {campground.pets ? <img className="amenitiesIcon" title="Pets Allowed" src={pets}/> : <span />}
-                    {campground.sewer ? <img className="amenitiesIcon" title="Septic Hookup" src={sewer}/> : <span />}
-                    {campground.amps ? <img className="amenitiesIcon" title="Electricity" src={amps}/> : <span />}
+                    {campground.water ? <img className="amenitiesIcon" title="Water Hookup" src="/water.png"/> : <span />}
+                    {campground.pets ? <img className="amenitiesIcon" title="Pets Allowed" src="/pets.png"/> : <span />}
+                    {campground.sewer ? <img className="amenitiesIcon" title="Septic Hookup" src="/sewer.png"/> : <span />}
+                    {campground.amps ? <img className="amenitiesIcon" title="Electricity" src="/amps.png"/> : <span />}
                   </div>
                 </div>
               </div>)
