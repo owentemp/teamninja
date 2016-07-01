@@ -83,23 +83,28 @@ Please read CONTRIBUTING.md for details on our code of conduct, and the process 
 
 ###Authors
 
-Owen Temple - https://github.com/owentemple
+#####Final Phase Development Team
 
-James Lee - https://github.com/JimmyLee87
+[Owen Temple](https://github.com/owentemple)
 
-Zackery Perryman - https://github.com/undeadtwo
+[James Lee](https://github.com/JimmyLee87)
 
-Paul-Michael Schreiber - https://github.com/pschreibs85
+[Zackery Perryman](https://github.com/undeadtwo)
 
-Mark Boraski - https://github.com/SpartanSOS
+[Paul-Michael Schreiber](https://github.com/pschreibs85)
 
-Maher Dakkak - https://github.com/Madakkak
 
-Jack Hall - https://github.com/jackjhall22
+#####Initial Phase Development Team
 
-Matthew DuBose - https://github.com/mjdubose
+[Mark Boraski](https://github.com/SpartanSOS)
 
-Vidush Rana - https://github.com/Vidushr
+[Maher Dakkak](https://github.com/Madakkak)
+
+[Jack Hall](https://github.com/jackjhall22)
+
+[Matthew DuBose](https://github.com/mjdubose)
+
+[Vidush Rana](https://github.com/Vidushr)
 
 ##Acknowledgments
 
