@@ -6,6 +6,6 @@ module.exports = (function() {
     pets: "/pets.png",
     amps: "/amps.png",
     sewer: "/sewer.png",
-    defaultFire: "http://media.treehugger.com/assets/images/2015/06/build-perfect-fire.jpg"
+    defaultFire: "https://media.treehugger.com/assets/images/2015/06/build-perfect-fire.jpg"
   }
 })();
